@@ -1,0 +1,75 @@
+/* FIFTH PAGE OF WEBSITE */
+
+
+
+
+.btn-app:link,       /* Solves problem of weird border appearing inder these images */
+.btn-app:visited {
+    border: 0;
+}
+
+
+
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+
+
+
+
+/*-----LINKS-----*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;                          /* No regular underline */
+    padding-bottom: 1px;                            /* Better underline */
+    border-bottom: 1px solid #e67e22;               /* Better underline */
+    transition: border-bottom 0.2s, color 0.2s;     /* The hover effect transition takes 0.2 seconds */
+}
+
+
+a:hover, 
+a:active {
+    color: #555;                            /* Turns grey when hovered over*/
+    border-bottom: 1px solid transparent;   /* Underline turns transparent when hovered over */
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+/* CITIES */
+/* ----------------------------------------------------------------- */
+
+
+/*WOW THAT WAS COOL!!!*/
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+
